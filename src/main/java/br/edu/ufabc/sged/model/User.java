@@ -38,6 +38,6 @@ public class User extends PanacheEntity {
 	@NotNull(message = "Situação não pode ser nulo")
 	public int situacao;
 	
-	@ManyToMany
-	public Collection<Group> group = new ArrayList<>();
+	//@ManyToMany
+	//public Collection<UsersGroup> group = new ArrayList<>();
 }

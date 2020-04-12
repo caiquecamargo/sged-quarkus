@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
 @Entity
-public class Group extends PanacheEntity{
+public class UsersGroup extends PanacheEntity{
 	
 	@NotEmpty(message = "Nome do grupo deve ser especificado.")
     public String nome;
@@ -22,6 +22,6 @@ public class Group extends PanacheEntity{
 	@NotNull(message = "Nível do grupo não pode ser nulo.")
     public int nivel;
 	
-	@ManyToMany
-	public Collection<User> user = new ArrayList<>();
+	//@ManyToMany
+	//public Collection<User> user = new ArrayList<>();
 }

@@ -20,6 +20,6 @@ public class Item extends PanacheEntity{
     @NotEmpty(message = "Caminho do item deve ser especificado")
     public String  src;
     
-    @ManyToOne
-	public User user;
+    //@ManyToOne
+	//public User user;
 }
