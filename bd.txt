@@ -1,2 +1,4 @@
+create database sgedquarkus;
+
 create user 'sgedquarkus'@'localhost' identified by 'sgedquarkus';
 grant all privileges on sgedquarkus.* to 'sgedquarkus'@'localhost';
