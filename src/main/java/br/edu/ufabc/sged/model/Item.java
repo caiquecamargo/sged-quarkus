@@ -17,7 +17,6 @@ public class Item extends PanacheEntity{
 	
     public String  restricoes;
     
-    @NotEmpty(message = "Caminho do item deve ser especificado")
     public String  src;
     
     //@ManyToOne
